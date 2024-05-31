@@ -17,8 +17,4 @@ function createHeart() {
     heart.style.left = `${Math.random() * 100}vw`;
     heart.style.animationDuration = `${2 + Math.random() * 3}s`;
     container.appendChild(heart);
-
-    setTimeout(() => {
-        heart.remove();
-    }, 4000);
 }
