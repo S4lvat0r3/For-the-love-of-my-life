@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="letter-container">
+        <img src="closed-letter.png" alt="Closed Letter" id="closed-letter" onclick="openLetter()">
+    </div>
+    <audio id="bg-music" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="content" class="hidden">
+        <div class="container">
+            <h1>💖 for my special boy 💖</h1>
+            <img src="romantic-image.jpg" alt="Romantic Image" class="romantic-image">
+            <p class="quote" id="quote">I wish I could turn back the clock. I'd find you sooner and love you longer.</p>
+        </div>
+        <div id="hearts-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
