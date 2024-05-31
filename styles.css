@@ -9,27 +9,24 @@ body {
     overflow: hidden; /* Prevents scrollbars from showing */
 }
 
-#content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.paper {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: inline-block;
 }
 
 .hidden {
     display: none;
-}
-
-.container {
-    text-align: center;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    color: #e91e63;
 }
 
 .romantic-image {
