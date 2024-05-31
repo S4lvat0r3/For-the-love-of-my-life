@@ -1,11 +1,9 @@
 function openLetter() {
     const letterContainer = document.getElementById('letter-container');
     const content = document.getElementById('content');
-    const bgMusic = document.getElementById('bg-music');
 
     letterContainer.style.display = 'none';
     content.classList.remove('hidden');
-    bgMusic.play();
 
     explodeHearts();
 }
